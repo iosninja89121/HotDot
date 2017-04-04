@@ -1,0 +1,18 @@
+PODS:
+  - MFSideMenu (0.5.5)
+  - SVProgressHUD (1.1.3)
+  - TPKeyboardAvoiding (1.3.1)
+
+DEPENDENCIES:
+  - MFSideMenu
+  - SVProgressHUD (~> 1.1)
+  - TPKeyboardAvoiding (~> 1.2)
+
+SPEC CHECKSUMS:
+  MFSideMenu: 268122e6894f2747fc3a2b48578100b232506c60
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
+
+PODFILE CHECKSUM: 37226ca5d46fa59ec3e2f21500d6c664a88aa6b3
+
+COCOAPODS: 1.2.0

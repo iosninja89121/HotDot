@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10871EDD2D11F04B4B86FA00 /* Pods_Hotdot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A0D3507353E86E9FD975E0 /* Pods_Hotdot.framework */; };
+		C30649BD1E770E17006D9C96 /* FilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30649BC1E770E17006D9C96 /* FilesViewController.m */; };
+		C30649C01E771022006D9C96 /* FilesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30649BF1E771022006D9C96 /* FilesDetailViewController.m */; };
+		C30649C31E7712DA006D9C96 /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30649C21E7712DA006D9C96 /* TeamViewController.m */; };
+		C30649C61E77153B006D9C96 /* TeamEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30649C51E77153B006D9C96 /* TeamEditViewController.m */; };
+		C30649C91E7719CF006D9C96 /* NewCollaborationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30649C81E7719CF006D9C96 /* NewCollaborationViewController.m */; };
+		C30649CC1E7723FD006D9C96 /* ChooseFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30649CB1E7723FD006D9C96 /* ChooseFriendViewController.m */; };
+		C30649CF1E7729EA006D9C96 /* NewCollaborationOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30649CE1E7729EA006D9C96 /* NewCollaborationOtherViewController.m */; };
+		C338121A1E74F8DD005C1FFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C33812191E74F8DD005C1FFD /* main.m */; };
+		C338121D1E74F8DD005C1FFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C338121C1E74F8DD005C1FFD /* AppDelegate.m */; };
+		C33812231E74F8DD005C1FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33812211E74F8DD005C1FFD /* Main.storyboard */; };
+		C33812251E74F8DD005C1FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33812241E74F8DD005C1FFD /* Assets.xcassets */; };
+		C33812281E74F8DD005C1FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33812261E74F8DD005C1FFD /* LaunchScreen.storyboard */; };
+		C33812341E75005A005C1FFD /* FiraSans-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = C33812301E75005A005C1FFD /* FiraSans-Book.otf */; };
+		C33812351E75005A005C1FFD /* FiraSans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C33812311E75005A005C1FFD /* FiraSans-Medium.otf */; };
+		C33812361E75005A005C1FFD /* FiraSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C33812321E75005A005C1FFD /* FiraSans-Regular.otf */; };
+		C33812371E75005A005C1FFD /* FiraSans-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C33812331E75005A005C1FFD /* FiraSans-SemiBold.otf */; };
+		C33812391E750A7C005C1FFD /* SanFranciscoText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C33812381E750A7C005C1FFD /* SanFranciscoText-Regular.otf */; };
+		C338123D1E750D72005C1FFD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C338123C1E750D72005C1FFD /* LoginViewController.m */; };
+		C33812431E7515E2005C1FFD /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33812421E7515E2005C1FFD /* SignupViewController.m */; };
+		C33812461E75248B005C1FFD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33812451E75248B005C1FFD /* MainViewController.m */; };
+		C33812491E752A16005C1FFD /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33812481E752A16005C1FFD /* ActivityViewController.m */; };
+		C338124C1E752A27005C1FFD /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C338124B1E752A27005C1FFD /* FeedViewController.m */; };
+		C338124F1E752A3B005C1FFD /* CollaborationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C338124E1E752A3B005C1FFD /* CollaborationViewController.m */; };
+		C33812521E752A4B005C1FFD /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33812511E752A4B005C1FFD /* ProfileViewController.m */; };
+		C33812551E756BC4005C1FFD /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33812541E756BC4005C1FFD /* SideMenuViewController.m */; };
+		C3F1B9DF1E75EEAC001D25BC /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F1B9DE1E75EEAC001D25BC /* CameraViewController.m */; };
+		C3F1B9E21E76059C001D25BC /* CreatePostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F1B9E11E76059C001D25BC /* CreatePostViewController.m */; };
+		C3F1B9E51E761FF1001D25BC /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F1B9E41E761FF1001D25BC /* PostViewController.m */; };
+		C3F1B9E81E762A5D001D25BC /* OverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F1B9E71E762A5D001D25BC /* OverviewViewController.m */; };
+		C3F1B9EB1E762BF0001D25BC /* CredentialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F1B9EA1E762BF0001D25BC /* CredentialsViewController.m */; };
+		C3F1B9EE1E762F09001D25BC /* PortfolioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F1B9ED1E762F09001D25BC /* PortfolioViewController.m */; };
+		C3F1B9F11E7630B4001D25BC /* PortfolioDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F1B9F01E7630B4001D25BC /* PortfolioDetailViewController.m */; };
+		C3F1B9F41E769395001D25BC /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F1B9F31E769395001D25BC /* ChatViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44A0D3507353E86E9FD975E0 /* Pods_Hotdot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hotdot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5715060FF69086E871A07354 /* Pods-Hotdot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hotdot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hotdot/Pods-Hotdot.release.xcconfig"; sourceTree = "<group>"; };
+		77A726010D77D0CE03A4992B /* Pods-Hotdot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hotdot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hotdot/Pods-Hotdot.debug.xcconfig"; sourceTree = "<group>"; };
+		C30649BB1E770E17006D9C96 /* FilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilesViewController.h; path = ViewController/FilesViewController.h; sourceTree = "<group>"; };
+		C30649BC1E770E17006D9C96 /* FilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FilesViewController.m; path = ViewController/FilesViewController.m; sourceTree = "<group>"; };
+		C30649BE1E771022006D9C96 /* FilesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilesDetailViewController.h; path = ViewController/FilesDetailViewController.h; sourceTree = "<group>"; };
+		C30649BF1E771022006D9C96 /* FilesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FilesDetailViewController.m; path = ViewController/FilesDetailViewController.m; sourceTree = "<group>"; };
+		C30649C11E7712DA006D9C96 /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamViewController.h; path = ViewController/TeamViewController.h; sourceTree = "<group>"; };
+		C30649C21E7712DA006D9C96 /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamViewController.m; path = ViewController/TeamViewController.m; sourceTree = "<group>"; };
+		C30649C41E77153B006D9C96 /* TeamEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamEditViewController.h; path = ViewController/TeamEditViewController.h; sourceTree = "<group>"; };
+		C30649C51E77153B006D9C96 /* TeamEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamEditViewController.m; path = ViewController/TeamEditViewController.m; sourceTree = "<group>"; };
+		C30649C71E7719CF006D9C96 /* NewCollaborationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewCollaborationViewController.h; path = ViewController/NewCollaborationViewController.h; sourceTree = "<group>"; };
+		C30649C81E7719CF006D9C96 /* NewCollaborationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewCollaborationViewController.m; path = ViewController/NewCollaborationViewController.m; sourceTree = "<group>"; };
+		C30649CA1E7723FD006D9C96 /* ChooseFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChooseFriendViewController.h; path = ViewController/ChooseFriendViewController.h; sourceTree = "<group>"; };
+		C30649CB1E7723FD006D9C96 /* ChooseFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChooseFriendViewController.m; path = ViewController/ChooseFriendViewController.m; sourceTree = "<group>"; };
+		C30649CD1E7729EA006D9C96 /* NewCollaborationOtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewCollaborationOtherViewController.h; path = ViewController/NewCollaborationOtherViewController.h; sourceTree = "<group>"; };
+		C30649CE1E7729EA006D9C96 /* NewCollaborationOtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewCollaborationOtherViewController.m; path = ViewController/NewCollaborationOtherViewController.m; sourceTree = "<group>"; };
+		C33812151E74F8DD005C1FFD /* Hotdot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hotdot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33812191E74F8DD005C1FFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C338121B1E74F8DD005C1FFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C338121C1E74F8DD005C1FFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C33812221E74F8DD005C1FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C33812241E74F8DD005C1FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C33812271E74F8DD005C1FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C33812291E74F8DD005C1FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33812301E75005A005C1FFD /* FiraSans-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Book.otf"; sourceTree = "<group>"; };
+		C33812311E75005A005C1FFD /* FiraSans-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Medium.otf"; sourceTree = "<group>"; };
+		C33812321E75005A005C1FFD /* FiraSans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.otf"; sourceTree = "<group>"; };
+		C33812331E75005A005C1FFD /* FiraSans-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-SemiBold.otf"; sourceTree = "<group>"; };
+		C33812381E750A7C005C1FFD /* SanFranciscoText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-Regular.otf"; sourceTree = "<group>"; };
+		C338123B1E750D72005C1FFD /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ViewController/LoginViewController.h; sourceTree = "<group>"; };
+		C338123C1E750D72005C1FFD /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ViewController/LoginViewController.m; sourceTree = "<group>"; };
+		C338123F1E751203005C1FFD /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Define.h; path = Utils/Define.h; sourceTree = "<group>"; };
+		C33812401E75121B005C1FFD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C33812411E7515E2005C1FFD /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignupViewController.h; path = ViewController/SignupViewController.h; sourceTree = "<group>"; };
+		C33812421E7515E2005C1FFD /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignupViewController.m; path = ViewController/SignupViewController.m; sourceTree = "<group>"; };
+		C33812441E75248B005C1FFD /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ViewController/MainViewController.h; sourceTree = "<group>"; };
+		C33812451E75248B005C1FFD /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ViewController/MainViewController.m; sourceTree = "<group>"; };
+		C33812471E752A16005C1FFD /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActivityViewController.h; path = ViewController/ActivityViewController.h; sourceTree = "<group>"; };
+		C33812481E752A16005C1FFD /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActivityViewController.m; path = ViewController/ActivityViewController.m; sourceTree = "<group>"; };
+		C338124A1E752A27005C1FFD /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedViewController.h; path = ViewController/FeedViewController.h; sourceTree = "<group>"; };
+		C338124B1E752A27005C1FFD /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedViewController.m; path = ViewController/FeedViewController.m; sourceTree = "<group>"; };
+		C338124D1E752A3B005C1FFD /* CollaborationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollaborationViewController.h; path = ViewController/CollaborationViewController.h; sourceTree = "<group>"; };
+		C338124E1E752A3B005C1FFD /* CollaborationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollaborationViewController.m; path = ViewController/CollaborationViewController.m; sourceTree = "<group>"; };
+		C33812501E752A4B005C1FFD /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = ViewController/ProfileViewController.h; sourceTree = "<group>"; };
+		C33812511E752A4B005C1FFD /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = ViewController/ProfileViewController.m; sourceTree = "<group>"; };
+		C33812531E756BC4005C1FFD /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SideMenuViewController.h; path = ViewController/SideMenuViewController.h; sourceTree = "<group>"; };
+		C33812541E756BC4005C1FFD /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SideMenuViewController.m; path = ViewController/SideMenuViewController.m; sourceTree = "<group>"; };
+		C3F1B9DD1E75EEAC001D25BC /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraViewController.h; path = ViewController/CameraViewController.h; sourceTree = "<group>"; };
+		C3F1B9DE1E75EEAC001D25BC /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraViewController.m; path = ViewController/CameraViewController.m; sourceTree = "<group>"; };
+		C3F1B9E01E76059C001D25BC /* CreatePostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreatePostViewController.h; path = ViewController/CreatePostViewController.h; sourceTree = "<group>"; };
+		C3F1B9E11E76059C001D25BC /* CreatePostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreatePostViewController.m; path = ViewController/CreatePostViewController.m; sourceTree = "<group>"; };
+		C3F1B9E31E761FF1001D25BC /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PostViewController.h; path = ViewController/PostViewController.h; sourceTree = "<group>"; };
+		C3F1B9E41E761FF1001D25BC /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PostViewController.m; path = ViewController/PostViewController.m; sourceTree = "<group>"; };
+		C3F1B9E61E762A5D001D25BC /* OverviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverviewViewController.h; path = ViewController/OverviewViewController.h; sourceTree = "<group>"; };
+		C3F1B9E71E762A5D001D25BC /* OverviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OverviewViewController.m; path = ViewController/OverviewViewController.m; sourceTree = "<group>"; };
+		C3F1B9E91E762BF0001D25BC /* CredentialsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CredentialsViewController.h; path = ViewController/CredentialsViewController.h; sourceTree = "<group>"; };
+		C3F1B9EA1E762BF0001D25BC /* CredentialsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CredentialsViewController.m; path = ViewController/CredentialsViewController.m; sourceTree = "<group>"; };
+		C3F1B9EC1E762F09001D25BC /* PortfolioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PortfolioViewController.h; path = ViewController/PortfolioViewController.h; sourceTree = "<group>"; };
+		C3F1B9ED1E762F09001D25BC /* PortfolioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PortfolioViewController.m; path = ViewController/PortfolioViewController.m; sourceTree = "<group>"; };
+		C3F1B9EF1E7630B4001D25BC /* PortfolioDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PortfolioDetailViewController.h; path = ViewController/PortfolioDetailViewController.h; sourceTree = "<group>"; };
+		C3F1B9F01E7630B4001D25BC /* PortfolioDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PortfolioDetailViewController.m; path = ViewController/PortfolioDetailViewController.m; sourceTree = "<group>"; };
+		C3F1B9F21E769395001D25BC /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatViewController.h; path = ViewController/ChatViewController.h; sourceTree = "<group>"; };
+		C3F1B9F31E769395001D25BC /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatViewController.m; path = ViewController/ChatViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C33812121E74F8DD005C1FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10871EDD2D11F04B4B86FA00 /* Pods_Hotdot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3636B57ACA13CBB71F6A434B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44A0D3507353E86E9FD975E0 /* Pods_Hotdot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C5BAE048F253F5CF0830154 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77A726010D77D0CE03A4992B /* Pods-Hotdot.debug.xcconfig */,
+				5715060FF69086E871A07354 /* Pods-Hotdot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C338120C1E74F8DD005C1FFD = {
+			isa = PBXGroup;
+			children = (
+				C33812171E74F8DD005C1FFD /* Hotdot */,
+				C33812161E74F8DD005C1FFD /* Products */,
+				5C5BAE048F253F5CF0830154 /* Pods */,
+				3636B57ACA13CBB71F6A434B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C33812161E74F8DD005C1FFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C33812151E74F8DD005C1FFD /* Hotdot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C33812171E74F8DD005C1FFD /* Hotdot */ = {
+			isa = PBXGroup;
+			children = (
+				C338123A1E750D4D005C1FFD /* ViewController */,
+				C338123E1E7511E9005C1FFD /* Utils */,
+				C338121B1E74F8DD005C1FFD /* AppDelegate.h */,
+				C338121C1E74F8DD005C1FFD /* AppDelegate.m */,
+				C33812211E74F8DD005C1FFD /* Main.storyboard */,
+				C33812241E74F8DD005C1FFD /* Assets.xcassets */,
+				C33812261E74F8DD005C1FFD /* LaunchScreen.storyboard */,
+				C33812291E74F8DD005C1FFD /* Info.plist */,
+				C33812181E74F8DD005C1FFD /* Supporting Files */,
+			);
+			path = Hotdot;
+			sourceTree = "<group>";
+		};
+		C33812181E74F8DD005C1FFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C338122F1E75005A005C1FFD /* font */,
+				C33812191E74F8DD005C1FFD /* main.m */,
+				C33812401E75121B005C1FFD /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C338122F1E75005A005C1FFD /* font */ = {
+			isa = PBXGroup;
+			children = (
+				C33812381E750A7C005C1FFD /* SanFranciscoText-Regular.otf */,
+				C33812301E75005A005C1FFD /* FiraSans-Book.otf */,
+				C33812311E75005A005C1FFD /* FiraSans-Medium.otf */,
+				C33812321E75005A005C1FFD /* FiraSans-Regular.otf */,
+				C33812331E75005A005C1FFD /* FiraSans-SemiBold.otf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		C338123A1E750D4D005C1FFD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C338123B1E750D72005C1FFD /* LoginViewController.h */,
+				C338123C1E750D72005C1FFD /* LoginViewController.m */,
+				C33812411E7515E2005C1FFD /* SignupViewController.h */,
+				C33812421E7515E2005C1FFD /* SignupViewController.m */,
+				C33812441E75248B005C1FFD /* MainViewController.h */,
+				C33812451E75248B005C1FFD /* MainViewController.m */,
+				C33812471E752A16005C1FFD /* ActivityViewController.h */,
+				C33812481E752A16005C1FFD /* ActivityViewController.m */,
+				C338124A1E752A27005C1FFD /* FeedViewController.h */,
+				C338124B1E752A27005C1FFD /* FeedViewController.m */,
+				C338124D1E752A3B005C1FFD /* CollaborationViewController.h */,
+				C338124E1E752A3B005C1FFD /* CollaborationViewController.m */,
+				C33812501E752A4B005C1FFD /* ProfileViewController.h */,
+				C33812511E752A4B005C1FFD /* ProfileViewController.m */,
+				C33812531E756BC4005C1FFD /* SideMenuViewController.h */,
+				C33812541E756BC4005C1FFD /* SideMenuViewController.m */,
+				C3F1B9DD1E75EEAC001D25BC /* CameraViewController.h */,
+				C3F1B9DE1E75EEAC001D25BC /* CameraViewController.m */,
+				C3F1B9E01E76059C001D25BC /* CreatePostViewController.h */,
+				C3F1B9E11E76059C001D25BC /* CreatePostViewController.m */,
+				C3F1B9E31E761FF1001D25BC /* PostViewController.h */,
+				C3F1B9E41E761FF1001D25BC /* PostViewController.m */,
+				C3F1B9E61E762A5D001D25BC /* OverviewViewController.h */,
+				C3F1B9E71E762A5D001D25BC /* OverviewViewController.m */,
+				C3F1B9E91E762BF0001D25BC /* CredentialsViewController.h */,
+				C3F1B9EA1E762BF0001D25BC /* CredentialsViewController.m */,
+				C3F1B9EC1E762F09001D25BC /* PortfolioViewController.h */,
+				C3F1B9ED1E762F09001D25BC /* PortfolioViewController.m */,
+				C3F1B9EF1E7630B4001D25BC /* PortfolioDetailViewController.h */,
+				C3F1B9F01E7630B4001D25BC /* PortfolioDetailViewController.m */,
+				C3F1B9F21E769395001D25BC /* ChatViewController.h */,
+				C3F1B9F31E769395001D25BC /* ChatViewController.m */,
+				C30649BB1E770E17006D9C96 /* FilesViewController.h */,
+				C30649BC1E770E17006D9C96 /* FilesViewController.m */,
+				C30649BE1E771022006D9C96 /* FilesDetailViewController.h */,
+				C30649BF1E771022006D9C96 /* FilesDetailViewController.m */,
+				C30649C11E7712DA006D9C96 /* TeamViewController.h */,
+				C30649C21E7712DA006D9C96 /* TeamViewController.m */,
+				C30649C41E77153B006D9C96 /* TeamEditViewController.h */,
+				C30649C51E77153B006D9C96 /* TeamEditViewController.m */,
+				C30649C71E7719CF006D9C96 /* NewCollaborationViewController.h */,
+				C30649C81E7719CF006D9C96 /* NewCollaborationViewController.m */,
+				C30649CA1E7723FD006D9C96 /* ChooseFriendViewController.h */,
+				C30649CB1E7723FD006D9C96 /* ChooseFriendViewController.m */,
+				C30649CD1E7729EA006D9C96 /* NewCollaborationOtherViewController.h */,
+				C30649CE1E7729EA006D9C96 /* NewCollaborationOtherViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		C338123E1E7511E9005C1FFD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C338123F1E751203005C1FFD /* Define.h */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C33812141E74F8DD005C1FFD /* Hotdot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C338122C1E74F8DD005C1FFD /* Build configuration list for PBXNativeTarget "Hotdot" */;
+			buildPhases = (
+				63766A057956C696018831B2 /* [CP] Check Pods Manifest.lock */,
+				C33812111E74F8DD005C1FFD /* Sources */,
+				C33812121E74F8DD005C1FFD /* Frameworks */,
+				C33812131E74F8DD005C1FFD /* Resources */,
+				93B0746D1D0491F741CCD8F2 /* [CP] Embed Pods Frameworks */,
+				786E9809D77CE9D91F943B14 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hotdot;
+			productName = Hotdot;
+			productReference = C33812151E74F8DD005C1FFD /* Hotdot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C338120D1E74F8DD005C1FFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = administrator;
+				TargetAttributes = {
+					C33812141E74F8DD005C1FFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C33812101E74F8DD005C1FFD /* Build configuration list for PBXProject "Hotdot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C338120C1E74F8DD005C1FFD;
+			productRefGroup = C33812161E74F8DD005C1FFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C33812141E74F8DD005C1FFD /* Hotdot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C33812131E74F8DD005C1FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33812281E74F8DD005C1FFD /* LaunchScreen.storyboard in Resources */,
+				C33812391E750A7C005C1FFD /* SanFranciscoText-Regular.otf in Resources */,
+				C33812361E75005A005C1FFD /* FiraSans-Regular.otf in Resources */,
+				C33812251E74F8DD005C1FFD /* Assets.xcassets in Resources */,
+				C33812371E75005A005C1FFD /* FiraSans-SemiBold.otf in Resources */,
+				C33812351E75005A005C1FFD /* FiraSans-Medium.otf in Resources */,
+				C33812231E74F8DD005C1FFD /* Main.storyboard in Resources */,
+				C33812341E75005A005C1FFD /* FiraSans-Book.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63766A057956C696018831B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		786E9809D77CE9D91F943B14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hotdot/Pods-Hotdot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93B0746D1D0491F741CCD8F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hotdot/Pods-Hotdot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C33812111E74F8DD005C1FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33812551E756BC4005C1FFD /* SideMenuViewController.m in Sources */,
+				C3F1B9EE1E762F09001D25BC /* PortfolioViewController.m in Sources */,
+				C3F1B9E81E762A5D001D25BC /* OverviewViewController.m in Sources */,
+				C338124F1E752A3B005C1FFD /* CollaborationViewController.m in Sources */,
+				C3F1B9E51E761FF1001D25BC /* PostViewController.m in Sources */,
+				C33812521E752A4B005C1FFD /* ProfileViewController.m in Sources */,
+				C338121D1E74F8DD005C1FFD /* AppDelegate.m in Sources */,
+				C30649C61E77153B006D9C96 /* TeamEditViewController.m in Sources */,
+				C30649C31E7712DA006D9C96 /* TeamViewController.m in Sources */,
+				C30649C01E771022006D9C96 /* FilesDetailViewController.m in Sources */,
+				C33812491E752A16005C1FFD /* ActivityViewController.m in Sources */,
+				C3F1B9F41E769395001D25BC /* ChatViewController.m in Sources */,
+				C30649CF1E7729EA006D9C96 /* NewCollaborationOtherViewController.m in Sources */,
+				C338124C1E752A27005C1FFD /* FeedViewController.m in Sources */,
+				C3F1B9E21E76059C001D25BC /* CreatePostViewController.m in Sources */,
+				C3F1B9F11E7630B4001D25BC /* PortfolioDetailViewController.m in Sources */,
+				C3F1B9EB1E762BF0001D25BC /* CredentialsViewController.m in Sources */,
+				C3F1B9DF1E75EEAC001D25BC /* CameraViewController.m in Sources */,
+				C30649BD1E770E17006D9C96 /* FilesViewController.m in Sources */,
+				C30649C91E7719CF006D9C96 /* NewCollaborationViewController.m in Sources */,
+				C338121A1E74F8DD005C1FFD /* main.m in Sources */,
+				C33812431E7515E2005C1FFD /* SignupViewController.m in Sources */,
+				C33812461E75248B005C1FFD /* MainViewController.m in Sources */,
+				C338123D1E750D72005C1FFD /* LoginViewController.m in Sources */,
+				C30649CC1E7723FD006D9C96 /* ChooseFriendViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C33812211E74F8DD005C1FFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33812221E74F8DD005C1FFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C33812261E74F8DD005C1FFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33812271E74F8DD005C1FFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C338122A1E74F8DD005C1FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C338122B1E74F8DD005C1FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C338122D1E74F8DD005C1FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A726010D77D0CE03A4992B /* Pods-Hotdot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Hotdot/PrefixHeader.pch;
+				INFOPLIST_FILE = Hotdot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ninja.Hotdot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C338122E1E74F8DD005C1FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5715060FF69086E871A07354 /* Pods-Hotdot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Hotdot/PrefixHeader.pch;
+				INFOPLIST_FILE = Hotdot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ninja.Hotdot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C33812101E74F8DD005C1FFD /* Build configuration list for PBXProject "Hotdot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C338122A1E74F8DD005C1FFD /* Debug */,
+				C338122B1E74F8DD005C1FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C338122C1E74F8DD005C1FFD /* Build configuration list for PBXNativeTarget "Hotdot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C338122D1E74F8DD005C1FFD /* Debug */,
+				C338122E1E74F8DD005C1FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C338120D1E74F8DD005C1FFD /* Project object */;
+}
